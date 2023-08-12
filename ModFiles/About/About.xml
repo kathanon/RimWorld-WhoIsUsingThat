@@ -5,7 +5,7 @@
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<description></description>
+	<description>For any item that is reserved by a pawn, adds a line to its selection information stating what pawn has reserved it and why.</description>
 	<url>https://github.com/kathanon/RimWorld-WhoIsUsingThat</url>
 
 	<modDependencies>

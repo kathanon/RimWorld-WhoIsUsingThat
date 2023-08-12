@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+  <kathanon.WhoIsUsingThat.AddedDescription.JobFalse.CountFalse>Reserved by {0}</kathanon.WhoIsUsingThat.AddedDescription.JobFalse.CountFalse>
+  <kathanon.WhoIsUsingThat.AddedDescription.JobTrue.CountFalse>Reserved by {0} for {1}</kathanon.WhoIsUsingThat.AddedDescription.JobTrue.CountFalse>
+  <kathanon.WhoIsUsingThat.AddedDescription.JobFalse.CountTrue>{2} reserved by {0}</kathanon.WhoIsUsingThat.AddedDescription.JobFalse.CountTrue>
+  <kathanon.WhoIsUsingThat.AddedDescription.JobTrue.CountTrue>{2} reserved by {0} for {1}</kathanon.WhoIsUsingThat.AddedDescription.JobTrue.CountTrue>
 </LanguageData>
