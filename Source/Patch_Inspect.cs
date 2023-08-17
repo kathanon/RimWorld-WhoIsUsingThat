@@ -26,8 +26,10 @@ public static class Patch_Inspect {
         try {
             var name = pawn.NameShortColored;
             string job = res.Job?.GetReport(pawn)?.Trim();
-            string pattern = "[ ]*\\b" + Regex.Escape(self.LabelNoCount) + "( x[0-9]+)?[ ]*";
-            job = Regex.Replace(job, pattern, " ", RegexOptions.IgnoreCase);
+            if (job != null) {
+                string pattern = "[ ]*\\b" + Regex.Escape(self.LabelNoCount) + "( x[0-9]+)?[ ]*";
+                job = Regex.Replace(job, pattern, " ", RegexOptions.IgnoreCase);
+            }
             int count = (res.StackCount < self.stackCount) ? res.StackCount : 0;
             var desc = Strings.AddedDescription(name, job, count);
             __result = (__result.NullOrEmpty()) ? desc : $"{__result}\n{desc}";
